@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Tree Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Binary Tree Visualizer</h1>
+        <div class="controls">
+            <input type="number" id="nodeValue" placeholder="Enter node value" />
+            <button onclick="addNode()">Add Node</button>
+            <button onclick="deleteNode()">Delete Node</button>
+            <button onclick="searchNode()">Search Node</button>
+        </div>
+        <canvas id="treeCanvas" width="800" height="600"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
